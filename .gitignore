@@ -1,0 +1,136 @@
+# macos
+.DS_Store
+
+# Xcode
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+!default.xcworkspace
+.build
+.clang-format
+.idea/
+.pt
+.recordingSnapshots
+.swiftpm
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xcscmblueprint
+build/
+DerivedData
+profile
+xcode_build_raw.log
+xcode_test_raw.log
+xcuserdata
+
+# Artsy Development APN certificate
+.clang-format
+net.artsy.artsy.dev.pem
+
+# See note in Podfile
+ios/Artsy/App/Echo.json
+ios/Artsy/App/EchoNew.json
+ios/.xcode.env.local
+
+# Fastlane
+Preview.html
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# bundler
+.vendor
+
+# Ruby / Cocoa Pods
+Pods
+/vendor/bundle/
+
+# build artefacts
+derived_data
+
+## js bundle
+dist/*
+
+# JS caches
+.cache
+
+# Yalc local publishing for local dev
+.yalc/
+yalc.lock
+
+# Custom
+.apphub
+.awcache
+.vscode/.browse.VC.db
+.vscode/.react/
+.vscode/launchReactNative.js
+.vscode/tasks.json.old
+.vscode/typings
+coverage
+node_modules
+npm-debug.log
+package-lock.json
+yarn-error.log
+
+
+eslint-errors.json
+
+# typescript
+tsc_raw.log
+
+# query map
+data/complete.queryMap.json
+
+# native code hash
+native-code-checksum.hash
+
+.manifests
+
+# auto-managed "state" files
+.i-had-a-netrc-file
+
+# Ignore env files
+**/.env*
+!.env.example
+
+# Android/IntelliJ
+.gradle
+.idea
+*.iml
+build/
+local.properties
+
+# android
+*.keystore
+!debug.keystore
+android-secret.json
+
+
+
+# Firebase files
+google-services.json
+GoogleService-Info.plist
+
+metaflags.json
+
+# Relay
+src/__generated__
+
+# jest circleci reports
+reports
+
+# Homebrew lock file
+Brewfile.lock.json
+
+# for tsconfig `incremental`
+tsconfig.tsbuildinfo
+
+#########################################################
+# Keep this rule last.
+# Keep these, so we can keep the folders these appear in.
+!.gitkeep
+#########################################################
